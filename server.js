@@ -6,7 +6,7 @@ const app = express();
 const cors =require("cors");
 const morgan = require("morgan")
 
-mongoose.connect(MONGODB_URL, {
+mongoose.connect(MONGODB_URI, {
     useUnifiedTopology: true,
     useNewUrlParser: true,
 });
